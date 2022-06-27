@@ -1,0 +1,95 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(84, 139, 222, 0.676);
+  padding: 50px;
+}
+
+.heading {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.new-task {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-task__input {
+  width: 600px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  outline: none;
+}
+
+.new-task__button,
+.task-list__clear-button {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  color:rgba(20, 86, 184, 0.676);
+  padding: 10px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+.task-list {
+  padding: 20px 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-color:rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+}
+
+.task-list__title-button {
+  font-size: 30px;
+}
+
+.task-list {
+  font-size: 20px;
+}
+
+.tasks {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.tasks input:checked + span {
+  opacity: 0.4;
+}
+
+.hidden {
+  display: none;
+}
+
+.task-delete {
+  width: 90px;
+  margin-left: 20px;
+  font-size: 18px;
+  color:rgba(20, 86, 184, 0.676);
+  padding: 5px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
